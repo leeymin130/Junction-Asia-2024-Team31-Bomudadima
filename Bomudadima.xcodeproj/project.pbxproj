@@ -11,6 +11,16 @@
 		2CF64FDB2C67E532009AE631 /* CrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF64FDA2C67E532009AE631 /* CrackCell.swift */; };
 		2CF64FDD2C67E54C009AE631 /* GuToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF64FDC2C67E54C009AE631 /* GuToggleView.swift */; };
 		2CF64FDF2C67E573009AE631 /* SelectRiskSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF64FDE2C67E573009AE631 /* SelectRiskSegmentView.swift */; };
+		2CF650022C67EED5009AE631 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FF92C67EED5009AE631 /* Pretendard-Regular.otf */; };
+		2CF650032C67EED5009AE631 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FFA2C67EED5009AE631 /* Pretendard-Medium.otf */; };
+		2CF650042C67EED5009AE631 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FFB2C67EED5009AE631 /* Pretendard-Thin.otf */; };
+		2CF650052C67EED5009AE631 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FFC2C67EED5009AE631 /* Pretendard-Light.otf */; };
+		2CF650062C67EED5009AE631 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FFD2C67EED5009AE631 /* Pretendard-SemiBold.otf */; };
+		2CF650072C67EED5009AE631 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FFE2C67EED5009AE631 /* Pretendard-ExtraLight.otf */; };
+		2CF650082C67EED5009AE631 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64FFF2C67EED5009AE631 /* Pretendard-Bold.otf */; };
+		2CF650092C67EED5009AE631 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF650002C67EED5009AE631 /* Pretendard-Black.otf */; };
+		2CF6500A2C67EED5009AE631 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF650012C67EED5009AE631 /* Pretendard-ExtraBold.otf */; };
+		2CF6500E2C67EFC1009AE631 /* Font + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6500D2C67EFC1009AE631 /* Font + Extension.swift */; };
 		7DF611DF2C67B3E0007FD57C /* BomudadimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF611DE2C67B3E0007FD57C /* BomudadimaApp.swift */; };
 		7DF611E12C67B3E0007FD57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF611E02C67B3E0007FD57C /* ContentView.swift */; };
 		7DF611E32C67B3E0007FD57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF611E22C67B3E0007FD57C /* Assets.xcassets */; };
@@ -22,6 +32,17 @@
 		2CF64FDA2C67E532009AE631 /* CrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackCell.swift; sourceTree = "<group>"; };
 		2CF64FDC2C67E54C009AE631 /* GuToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuToggleView.swift; sourceTree = "<group>"; };
 		2CF64FDE2C67E573009AE631 /* SelectRiskSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRiskSegmentView.swift; sourceTree = "<group>"; };
+		2CF64FF92C67EED5009AE631 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		2CF64FFA2C67EED5009AE631 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		2CF64FFB2C67EED5009AE631 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		2CF64FFC2C67EED5009AE631 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		2CF64FFD2C67EED5009AE631 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		2CF64FFE2C67EED5009AE631 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		2CF64FFF2C67EED5009AE631 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		2CF650002C67EED5009AE631 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		2CF650012C67EED5009AE631 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		2CF6500B2C67EEF9009AE631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2CF6500D2C67EFC1009AE631 /* Font + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font + Extension.swift"; sourceTree = "<group>"; };
 		7DF611DB2C67B3E0007FD57C /* Bomudadima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bomudadima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF611DE2C67B3E0007FD57C /* BomudadimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BomudadimaApp.swift; sourceTree = "<group>"; };
 		7DF611E02C67B3E0007FD57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +80,38 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2CF64FE52C67EE72009AE631 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CF64FE62C67EE7A009AE631 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CF64FE62C67EE7A009AE631 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2CF650002C67EED5009AE631 /* Pretendard-Black.otf */,
+				2CF64FFF2C67EED5009AE631 /* Pretendard-Bold.otf */,
+				2CF650012C67EED5009AE631 /* Pretendard-ExtraBold.otf */,
+				2CF64FFE2C67EED5009AE631 /* Pretendard-ExtraLight.otf */,
+				2CF64FFC2C67EED5009AE631 /* Pretendard-Light.otf */,
+				2CF64FFA2C67EED5009AE631 /* Pretendard-Medium.otf */,
+				2CF64FF92C67EED5009AE631 /* Pretendard-Regular.otf */,
+				2CF64FFD2C67EED5009AE631 /* Pretendard-SemiBold.otf */,
+				2CF64FFB2C67EED5009AE631 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2CF6500C2C67EFA9009AE631 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2CF6500D2C67EFC1009AE631 /* Font + Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		7DF611D22C67B3E0007FD57C = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +131,9 @@
 		7DF611DD2C67B3E0007FD57C /* Bomudadima */ = {
 			isa = PBXGroup;
 			children = (
+				2CF6500C2C67EFA9009AE631 /* Helpers */,
+				2CF6500B2C67EEF9009AE631 /* Info.plist */,
+				2CF64FE52C67EE72009AE631 /* Resources */,
 				2CF64FD82C67E509009AE631 /* CrackList */,
 				7DF611DE2C67B3E0007FD57C /* BomudadimaApp.swift */,
 				7DF611E02C67B3E0007FD57C /* ContentView.swift */,
@@ -154,7 +210,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF611E62C67B3E0007FD57C /* Preview Assets.xcassets in Resources */,
+				2CF650042C67EED5009AE631 /* Pretendard-Thin.otf in Resources */,
+				2CF650072C67EED5009AE631 /* Pretendard-ExtraLight.otf in Resources */,
+				2CF650062C67EED5009AE631 /* Pretendard-SemiBold.otf in Resources */,
+				2CF650092C67EED5009AE631 /* Pretendard-Black.otf in Resources */,
+				2CF650022C67EED5009AE631 /* Pretendard-Regular.otf in Resources */,
+				2CF6500A2C67EED5009AE631 /* Pretendard-ExtraBold.otf in Resources */,
 				7DF611E32C67B3E0007FD57C /* Assets.xcassets in Resources */,
+				2CF650032C67EED5009AE631 /* Pretendard-Medium.otf in Resources */,
+				2CF650082C67EED5009AE631 /* Pretendard-Bold.otf in Resources */,
+				2CF650052C67EED5009AE631 /* Pretendard-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +236,7 @@
 				2CF64FDF2C67E573009AE631 /* SelectRiskSegmentView.swift in Sources */,
 				7DF611DF2C67B3E0007FD57C /* BomudadimaApp.swift in Sources */,
 				2CF64FDD2C67E54C009AE631 /* GuToggleView.swift in Sources */,
+				2CF6500E2C67EFC1009AE631 /* Font + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +372,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bomudadima/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bomudadima/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -334,6 +401,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bomudadima/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bomudadima/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
