@@ -21,6 +21,10 @@
 		2CF650092C67EED5009AE631 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF650002C67EED5009AE631 /* Pretendard-Black.otf */; };
 		2CF6500A2C67EED5009AE631 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF650012C67EED5009AE631 /* Pretendard-ExtraBold.otf */; };
 		2CF6500E2C67EFC1009AE631 /* Font + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6500D2C67EFC1009AE631 /* Font + Extension.swift */; };
+		48042B06D4D1601DA3897980 /* Pods_Bomudadima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3540721435E778A00E3A08 /* Pods_Bomudadima.framework */; };
+		7D64A86E2C680D1A003B4F82 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A86D2C680D1A003B4F82 /* MapView.swift */; };
+		7D64A8702C680D60003B4F82 /* NaverMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A86F2C680D60003B4F82 /* NaverMap.swift */; };
+		7D64A8742C681821003B4F82 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A8732C681821003B4F82 /* Coordinator.swift */; };
 		7DF611DF2C67B3E0007FD57C /* BomudadimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF611DE2C67B3E0007FD57C /* BomudadimaApp.swift */; };
 		7DF611E12C67B3E0007FD57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF611E02C67B3E0007FD57C /* ContentView.swift */; };
 		7DF611E32C67B3E0007FD57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF611E22C67B3E0007FD57C /* Assets.xcassets */; };
@@ -43,11 +47,17 @@
 		2CF650012C67EED5009AE631 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 		2CF6500B2C67EEF9009AE631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2CF6500D2C67EFC1009AE631 /* Font + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font + Extension.swift"; sourceTree = "<group>"; };
+		33AC91526839DA1D4AB44F11 /* Pods-Bomudadima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bomudadima.debug.xcconfig"; path = "Target Support Files/Pods-Bomudadima/Pods-Bomudadima.debug.xcconfig"; sourceTree = "<group>"; };
+		7D64A86D2C680D1A003B4F82 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7D64A86F2C680D60003B4F82 /* NaverMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMap.swift; sourceTree = "<group>"; };
+		7D64A8732C681821003B4F82 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		7DF611DB2C67B3E0007FD57C /* Bomudadima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bomudadima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF611DE2C67B3E0007FD57C /* BomudadimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BomudadimaApp.swift; sourceTree = "<group>"; };
 		7DF611E02C67B3E0007FD57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DF611E22C67B3E0007FD57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF611E52C67B3E0007FD57C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED476057966FEAEB91592C4D /* Pods-Bomudadima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bomudadima.release.xcconfig"; path = "Target Support Files/Pods-Bomudadima/Pods-Bomudadima.release.xcconfig"; sourceTree = "<group>"; };
+		FD3540721435E778A00E3A08 /* Pods_Bomudadima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bomudadima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48042B06D4D1601DA3897980 /* Pods_Bomudadima.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,11 +123,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		7D64A86C2C680D09003B4F82 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7D64A86D2C680D1A003B4F82 /* MapView.swift */,
+				7D64A8732C681821003B4F82 /* Coordinator.swift */,
+				7D64A86F2C680D60003B4F82 /* NaverMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		7DF611D22C67B3E0007FD57C = {
 			isa = PBXGroup;
 			children = (
 				7DF611DD2C67B3E0007FD57C /* Bomudadima */,
 				7DF611DC2C67B3E0007FD57C /* Products */,
+				9FA3F3BF1B5CC66F426CAC07 /* Pods */,
+				9AD928797BB42531EF3A5DBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +154,7 @@
 		7DF611DD2C67B3E0007FD57C /* Bomudadima */ = {
 			isa = PBXGroup;
 			children = (
+				7D64A86C2C680D09003B4F82 /* Map */,
 				2CF6500C2C67EFA9009AE631 /* Helpers */,
 				2CF6500B2C67EEF9009AE631 /* Info.plist */,
 				2CF64FE52C67EE72009AE631 /* Resources */,
@@ -151,6 +175,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9AD928797BB42531EF3A5DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD3540721435E778A00E3A08 /* Pods_Bomudadima.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA3F3BF1B5CC66F426CAC07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33AC91526839DA1D4AB44F11 /* Pods-Bomudadima.debug.xcconfig */,
+				ED476057966FEAEB91592C4D /* Pods-Bomudadima.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF611E92C67B3E0007FD57C /* Build configuration list for PBXNativeTarget "Bomudadima" */;
 			buildPhases = (
+				D0C95DE388ACC31186A925FF /* [CP] Check Pods Manifest.lock */,
 				7DF611D72C67B3E0007FD57C /* Sources */,
 				7DF611D82C67B3E0007FD57C /* Frameworks */,
 				7DF611D92C67B3E0007FD57C /* Resources */,
+				4B1C8D85D740D7168D903AF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,13 +268,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B1C8D85D740D7168D903AF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bomudadima/Pods-Bomudadima-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bomudadima/Pods-Bomudadima-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bomudadima/Pods-Bomudadima-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C95DE388ACC31186A925FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bomudadima-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DF611D72C67B3E0007FD57C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2CF64FD72C67D4DB009AE631 /* CrackListView.swift in Sources */,
+				7D64A86E2C680D1A003B4F82 /* MapView.swift in Sources */,
+				7D64A8742C681821003B4F82 /* Coordinator.swift in Sources */,
 				7DF611E12C67B3E0007FD57C /* ContentView.swift in Sources */,
+				7D64A8702C680D60003B4F82 /* NaverMap.swift in Sources */,
 				2CF64FDB2C67E532009AE631 /* CrackCell.swift in Sources */,
 				2CF64FDF2C67E573009AE631 /* SelectRiskSegmentView.swift in Sources */,
 				7DF611DF2C67B3E0007FD57C /* BomudadimaApp.swift in Sources */,
@@ -364,6 +452,7 @@
 		};
 		7DF611EA2C67B3E0007FD57C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AC91526839DA1D4AB44F11 /* Pods-Bomudadima.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -371,6 +460,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bomudadima/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bomudadima/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -393,6 +483,7 @@
 		};
 		7DF611EB2C67B3E0007FD57C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED476057966FEAEB91592C4D /* Pods-Bomudadima.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,6 +491,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bomudadima/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bomudadima/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
