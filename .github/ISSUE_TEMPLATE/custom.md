@@ -11,7 +11,7 @@ assignees: ''
 *
 
 ## 🍀 Branch Name
-Feat/#?-
+feat/#?-
 
 ## 🌱 To do
 - [ ]
