@@ -21,22 +21,34 @@ struct CrackListView: View {
                     Text("부제")
                         .font(.system(size: 18, weight: .regular))
                 }
+                .padding()
                 
                 Spacer()
                 
                 GuToggleView(left: $isNamgu)
+                    .padding()
             }
             
             SelectRiskSegmentView(currentRisk: $currentRisk)
             
             HStack {
-                Text("최근 시간순")
+                ZStack{
+                    RoundedRectangle(cornerRadius: 18)
+                        .stroke(Color._9_D_9_D_9_D, lineWidth: 1.5)
+                        .frame(width: 80, height: 26)
+                    
+                    Text("최근 시간순")
+                        .foregroundStyle(._9_D_9_D_9_D)
+                        .font(.system(size: 13, weight: .medium))
+                }
                 Image(systemName: "slider.vertical.3")
                 
                 Spacer()
                 
                 Image(systemName: "map.fill")
             }
+            .padding(.horizontal)
+            .padding(.vertical, 11)
             Rectangle()
                 .frame(height: 1)
             
